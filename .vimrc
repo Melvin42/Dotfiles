@@ -31,6 +31,7 @@ filetype plugin on
 
 syntax on
 
+
 let g:jellybeans_overrides = {
 \	'background': { 'guibg': '101010'},
 \}
@@ -112,13 +113,11 @@ endif
 " Set "," as map leader
 let mapleader = ","
 
-" Map escape instead of capslock
-"noremap <capslock> <esc>
-
-nnoremap <> :source ~/.vimrc<CR>
+"nnoremap <> :source ~/.vimrc<CR>
 
 " Comment line
 nnoremap <C-K> :s/^/\/\//<CR>
+nnoremap ; :s/$/\;/<CR>
 
 " Search file wich contain word
 nnoremap <F4> :grep! "\<<cword>\>" . -r<CR>:copen<CR>

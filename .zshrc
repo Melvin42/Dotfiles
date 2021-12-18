@@ -101,4 +101,5 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 export USER="melperri"
 export MAIL="melperri@student.42.fr"
-alias norm='while true; do clear; norminette; sleep 5; done'
+alias norm="while true; do clear; norminette; sleep 20; done"
+alias re="make re"
