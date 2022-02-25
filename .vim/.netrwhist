@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =0
+let g:netrw_dirhist_0='/mnt/nfs/homes/melperri/.vim/templates'
+let g:netrw_dirhist_9='/mnt/nfs/homes/melperri/.vim'
+let g:netrw_dirhist_8='/mnt/nfs/homes/melperri/.vim/templates'
+let g:netrw_dirhist_7='/mnt/nfs/homes/melperri/.vim'
+let g:netrw_dirhist_6='/mnt/nfs/homes/melperri/42-2021-minishell/src/cmd'
+let g:netrw_dirhist_5='/mnt/nfs/homes/melperri/42-2021-minishell/src'
+let g:netrw_dirhist_4='/mnt/nfs/homes/melperri/42-2021-minishell/src/builtin'
+let g:netrw_dirhist_3='/mnt/nfs/homes/melperri/42-2021-minishell/src'
+let g:netrw_dirhist_2='/mnt/nfs/homes/melperri/42-2021-minishell/include'
+let g:netrw_dirhist_1='/mnt/nfs/homes/melperri/CPP_Modules/CPP_Module_01/ex03'
