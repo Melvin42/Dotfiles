@@ -7,7 +7,7 @@ Skeleton::Skeleton() {
 
 Skeleton::Skeleton(const Skeleton &skeleton) {
 	std::cout << GREEN_IT << "Copy constructor called" << END_COLOR << std::endl;
-	*this = Skeleton;
+	*this = skeleton;
 	return ;
 }
 
